@@ -1,0 +1,277 @@
+/*Medium Layout: 1280px*/
+@media only screen and (min-width: 992px) and (max-width: 1200px)
+{
+  /*Home page Responsive code*/
+  .Area
+  {
+    width: 970px;
+  }
+  .Logo 
+  {
+    width: 240px;
+  }
+  .Single-Service 
+  {
+    width: 310px;
+  }
+  .About-Left 
+  {
+    width: 680px;
+  }
+
+  /*Services page Resoponsive code*/
+  .Services-Page .Single-Service 
+  {
+    width: 310px;
+  }
+  .Services-Page .Single-Service:nth-child(3),
+  .Services-Page .Single-Service:nth-child(6),
+  .Services-Page .Single-Service:nth-child(9),
+  .Services-Page .Single-Service:nth-child(12) 
+  {
+    margin-right: 0;
+  }
+  .Services-Page .Single-Service:nth-child(4),
+  .Services-Page .Single-Service:nth-child(8)
+  {
+    margin-right: 20px;
+  }
+
+  /*Foos Page Responsive Code*/
+  .Food-Items 
+  {
+    width: 227px;
+  }
+
+  /*Contact Page Responsive Code*/
+  .Contact-Form 
+  {
+    width: 620px;
+  }
+  .Contact-Address ul li 
+  {
+    margin-bottom: 18px;
+  }
+}
+
+/*Tablet Layout: 768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+  /*Home page Responsive Code*/
+  .Area
+  {
+    width: 750px;
+  }
+  .Logo 
+  {
+    width: 240px;
+  }
+  .Menu 
+  {
+    width: 460px;
+  }
+  .Menu ul 
+  {
+    margin-top: 35px;
+  }
+  .Menu ul li a 
+  {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .Single-Service 
+  {
+    width: 240px;
+    padding: 15px;
+    margin-right: 15px;
+  }
+  .Single-Service h4 
+  {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .Single-Service p 
+  {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 18px 0;
+  }
+  .Single-Service a, .About-Left a 
+  {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+  .About-Left 
+  {
+    width: 500px;
+  }
+  .About-Menu 
+  {
+    width: 230px;
+  }
+
+  /*Services Page Responsive Code*/
+  .Services-Page .Single-Service 
+  {
+    width: 240px;
+  }
+  .Services-Page .Single-Service:nth-child(3),
+  .Services-Page .Single-Service:nth-child(6),
+  .Services-Page .Single-Service:nth-child(9),
+  .Services-Page .Single-Service:nth-child(12)
+  {
+    margin-right: 0;
+  }
+  .Services-Page .Single-Service:nth-child(4),
+  .Services-Page .Single-Service:nth-child(8)
+  {
+    margin-right: 15px;
+  }
+
+  /*Food Page Responsive Code*/
+  .Food-Items 
+  {
+    width: 236px;
+  }
+  .Gallery-Box .Food-Items:nth-child(3),
+  .Gallery-Box .Food-Items:nth-child(6) 
+  {
+    margin-right: 0;
+  }
+  .Gallery-Box .Food-Items:nth-child(4),
+  .Gallery-Box .Food-Items:nth-child(8)
+  {
+    margin-right: 20px;
+  }
+
+  /*Contacts Page Responsive Code*/
+  .Contact-Form 
+  {
+    width: 480px;
+    margin-right: 15px;
+  }
+  .Contact-Address 
+  {
+    width: 230px;
+  }
+  .Contact-Address ul li 
+  {
+    margin-bottom: 20px;
+  }
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width: 767px)
+{
+  /*Home Page Responsive Code*/
+  .Area
+  {
+    width: 300px;
+  }
+  .Menu 
+  {
+    width: 100%;
+  }
+  .Menu ul 
+  {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .Title h4 
+  {
+    padding: 16px 0;
+    font-size: 26px;
+  }
+  .Single-Service 
+  {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  .Single-Service h4 
+  {
+    font-size: 23px;
+    margin-bottom: 13px;
+  }
+  .Single-Service p 
+  {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 16px 0;
+  }
+  .About-Left 
+  {
+    width: 100%;
+  }
+  .About-Left p 
+  {
+    font-size: 16px;
+  }
+  .About-Menu 
+  {
+    width: 100%;
+    padding-top: 30px;
+  }
+  
+  /*Page Banner and Content Responsive Code*/
+  .About-Banner, .Services-Banner, .Foods-Banner, .Contact-Banner 
+  {
+    padding: 55px 0;
+  }
+  .About-Banner h4, .Services-Banner h4, .Foods-Banner h4, 
+  .Contact-Banner h4 
+  {
+    font-size: 30px;
+  }
+
+  /*Services Page Responsive Code*/
+  .Services-Page .Single-Service 
+  {
+    width: 100%;
+  }
+
+  /*Foods Page Responsive Code*/
+  .Food-Items 
+  {
+    width: 100%;
+  }
+
+  /*Contacts Page Responsive Code*/
+  .Contact-Form 
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .Contact-Address 
+  {
+    width: 100%;
+  }
+  .Contact-Address ul li 
+  {
+    margin-bottom: 22px;
+  }
+  .Map iframe 
+  {
+    height: 210px;
+  }
+}
+
+/*Wide Mobile Layout: 480px*/
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+  .Area
+  {
+    width: 450px;
+  }
+  .Food-Items 
+  {
+    width: 47%;
+  }
+  .Gallery-Box .Food-Items:nth-child(2),
+  .Gallery-Box .Food-Items:nth-child(4),
+  .Gallery-Box .Food-Items:nth-child(6),
+  .Gallery-Box .Food-Items:nth-child(8) 
+  {
+    margin-right: 0;
+  }
+}
